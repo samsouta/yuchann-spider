@@ -2,7 +2,8 @@
 
 <div align="center">
 
-### High-performance Telegram crawler (multi-account, distributed)
+### 🚀 Distributed Telegram Crawler at Scale
+Multi-account | Fault-tolerant | Production-ready pipeline
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python" />
@@ -14,6 +15,11 @@
 </div>
 
 ---
+
+## 💡 Use Cases
+- Data mining Telegram channels
+- Building analytics pipelines
+- Content aggregation systems
 
 ## 🎯 Overview
 
@@ -152,7 +158,7 @@ VENV_PATH=/home/yuchann/yuChannBot/dev/worker/venv
 
 ---
 
-## 🚀 Usage
+## ⚡ Quick Start
 
 ```bash
 git clone https://github.com/samsouta/yuchann-spider
@@ -225,6 +231,7 @@ cycle complete → reset
 
 ## 🔒 Source Code
 Private. DM [@samsouta](https://t.me/samsouta) on Telegram to request access.
+Core logic is private. This repo shows system design and usage.
 
 ---
 
