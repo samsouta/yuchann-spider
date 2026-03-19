@@ -4,8 +4,8 @@
 
 <div align="center">
 
-### 🚀 Distributed Telegram Crawler at Scale
-Multi-account | Fault-tolerant | Production-ready pipeline
+### 🕷️ High-Performance Distributed Telegram Crawler
+Real-time scraping • Multi-account scaling • Fault-tolerant pipeline
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python" />
@@ -50,7 +50,7 @@ Distributed Telegram crawler built for **real production use**:
 ## 🖼️ Architecture
 
 <p align="center">
-  <img src="https://ik.imagekit.io/deceuior6/Me/photo_6183954858826731123_y.jpg" width="800" />
+  <img src="./img/arch.jpg" width="800" />
 </p>
 
 ---
@@ -233,7 +233,10 @@ cycle complete → reset
 
 ## 🔒 Source Code
 Private. DM [@samsouta](https://t.me/samsouta) on Telegram to request access.
-Core logic is private. This repo shows system design and usage.
+
+## 🔒 Note
+Core production logic is private.
+This repository demonstrates system architecture and workflow.
 
 ---
 
