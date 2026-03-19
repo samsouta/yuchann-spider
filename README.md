@@ -1,7 +1,4 @@
 # 🕷️ yuchann-spider
-<div align="center">
-    <img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python" />
-<div>
 
 <div align="center">
 
