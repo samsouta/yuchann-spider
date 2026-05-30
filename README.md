@@ -376,18 +376,6 @@ python main.py
 
 ---
 
-## Diagrams
-
-Add or replace these image files when the diagrams are ready:
-
-![Worker flow](./img/worker-flow.png)
-
-![Startup flow](./img/startup-flow.png)
-
-![Redis state](./img/redis-state.png)
-
-![Bootstrap and update lanes](./img/bootstrap-update-lanes.png)
-
 ## 🔒 Source Code
 Private. DM [@samsouta](https://t.me/samsouta) on Telegram to request access.
 
