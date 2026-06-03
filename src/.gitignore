@@ -1,17 +1,38 @@
-/logs/*.log
-venv/
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.db
+
+# Virtual env
+venv/
+
+# Environment
 .env
 .env.*
+
+# macOS
 .DS_Store
 
-data/retired/*
-sessions/*.session
-sessions/*.session-journal
-sessions/*
-!sessions/.gitkeep
+# Logs
+logs/
+*.log
 
+# Database
+*.db
+
+# Sessions
+# src/sessions/*
+# !src/sessions/.gitkeep
+
+# Channel data
+# src/data/channels/*
+# !src/data/channels/.gitkeep
+
+# Runtime data
+# src/data/retired/*
+# src/data/failed_channels.json
+# src/data/suspended.json
+
+# Cache
+src/cache/
