@@ -1,0 +1,3 @@
+JOB_UPDATE = "update"
+JOB_BOOTSTRAP = "bootstrap"
+JOB_TYPES = (JOB_UPDATE, JOB_BOOTSTRAP)

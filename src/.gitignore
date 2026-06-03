@@ -1,0 +1,17 @@
+/logs/*.log
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.env
+.env.*
+.DS_Store
+
+data/retired/*
+sessions/*.session
+sessions/*.session-journal
+sessions/*
+!sessions/.gitkeep
+

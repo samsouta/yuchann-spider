@@ -376,12 +376,12 @@ python main.py
 
 ---
 
-## 🔒 Source Code
+<!-- ## 🔒 Source Code
 Private. DM [@samsouta](https://t.me/samsouta) on Telegram to request access.
 
 ## 🔒 Note
 Core production logic is private.
-This repository demonstrates system architecture and workflow.
+This repository demonstrates system architecture and workflow. -->
 
 ## ⚠️ Disclaimer
 

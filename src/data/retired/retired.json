@@ -1,0 +1,18 @@
+[
+  {
+    "username": "BarmetomChannelCollection",
+    "is_adults": false,
+    "retired_at": "2026-03-17T09:07:36.245899+00:00",
+    "reason": "10 empty cycles",
+    "empty_cycles": 10,
+    "batch_file": "batch_001.json"
+  },
+  {
+    "username": "channelmsn1995",
+    "is_adults": false,
+    "retired_at": "2026-03-17T09:08:07.145293+00:00",
+    "reason": "10 empty cycles",
+    "empty_cycles": 10,
+    "batch_file": "batch_001.json"
+  }
+]

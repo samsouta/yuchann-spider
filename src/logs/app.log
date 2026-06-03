@@ -1,0 +1,585 @@
+2026-05-21 16:25:36 | INFO    | __main__
+  event: app_start
+  msg: YuChann Spider starting
+
+2026-05-21 16:25:36 | INFO    | __main__
+  event: channel_registry_loaded
+  msg: Channel registry loaded
+  bootstrap_channels: 8
+  update_files: 1
+
+2026-05-21 16:25:37 | WARNING | queues.channel_queue
+  event: queue_startup_stuck_processing
+  msg: Found stuck channels. Clearing processing queues
+  stuck_count: 1
+
+2026-05-21 16:25:45 | INFO    | queues.channel_queue
+  event: bootstrap_queue_synced
+  msg: Bootstrap queue synced from registry
+  added: 8
+
+2026-05-21 16:25:45 | INFO    | queues.channel_queue
+  event: queue_startup
+  msg: Queue initialized
+  added_bootstrap: 8
+  added_update: 7
+  cycle: 1
+  update_file: update_channel.json
+
+2026-05-21 16:25:45 | INFO    | __main__
+  event: queue_initialized
+  msg: Queue initialized
+  added: 15
+
+2026-05-21 16:25:45 | INFO    | __main__
+  event: queue_stats
+  msg: Queue stats snapshot
+  current_update_file: update_channel.json
+  cycle: 1
+  done: 0
+  failed: 0
+  pending: 15
+  pending_bootstrap: 8
+  pending_update: 7
+  processing_bootstrap: 0
+  processing_update: 0
+  update_files: 1
+  update_files_done: 0
+
+2026-05-21 16:25:45 | INFO    | utils.worker_mana_helper
+  event: preflight_start
+  msg: Preflight check starting
+  account_count: 2
+
+2026-05-21 16:25:45 | INFO    | utils.worker_mana_helper
+  event: account_ready
+  msg: Account ready
+  telegram_id: 7396635976
+  username: hanasuki69
+  worker_id: worker_6
+  worker_name: wai yan clone
+
+2026-05-21 16:25:45 | INFO    | utils.worker_mana_helper
+  event: account_ready
+  msg: Account ready
+  telegram_id: 1860730165
+  username: eastsryi
+  worker_id: worker_5
+  worker_name: pyae soon
+
+2026-05-21 16:25:45 | INFO    | utils.worker_mana_helper
+  event: preflight_complete
+  msg: Preflight check complete
+  failed_accounts: 0
+  ready_accounts: 2
+
+2026-05-21 16:25:45 | WARNING | workers.worker_manager
+  event: worker_pool_under_provisioned
+  msg: Worker pool under-provisioned
+  assigned_bootstrap: 1
+  assigned_update: 1
+  ready_accounts: 2
+  requested_bootstrap: 1
+  requested_update: 4
+
+2026-05-21 16:25:46 | INFO    | workers.worker_manager
+  event: workers_start
+  msg: Starting workers in parallel
+  bootstrap_workers: 1
+  update_workers: 1
+  worker_count: 2
+
+2026-05-21 16:25:46 | INFO    | workers.worker
+  event: worker_start
+  msg: Worker starting
+  worker_id: worker_5
+  worker_name: pyae soon
+  worker_role: bootstrap
+
+2026-05-21 16:25:46 | INFO    | workers.worker
+  event: worker_connected
+  msg: Worker connected
+  worker_id: worker_5
+  worker_role: bootstrap
+
+2026-05-21 16:25:46 | INFO    | workers.worker
+  event: worker_start
+  msg: Worker starting
+  worker_id: worker_6
+  worker_name: wai yan clone
+  worker_role: update
+
+2026-05-21 16:25:46 | INFO    | workers.worker
+  event: worker_connected
+  msg: Worker connected
+  worker_id: worker_6
+  worker_role: update
+
+2026-05-21 16:25:46 | INFO    | workers.worker
+  event: channel_processing
+  msg: Processing channel
+  is_adults: False
+  username: shtkocxitaltsxa
+  worker_id: worker_5
+  worker_name: pyae soon
+  worker_role: bootstrap
+
+2026-05-21 16:25:46 | INFO    | workers.worker
+  event: channel_processing
+  msg: Processing channel
+  is_adults: False
+  username: TheMovieWorldchannel
+  worker_id: worker_6
+  worker_name: wai yan clone
+  worker_role: update
+
+2026-05-21 16:25:47 | INFO    | utils.peer_resolver
+  event: peer_cache_hit
+  msg: Using cached peer
+  peer_type: CHANNEL
+  username: shtkocxitaltsxa
+
+2026-05-21 16:25:48 | INFO    | utils.peer_resolver
+  event: peer_cache_hit
+  msg: Using cached peer
+  peer_type: CHANNEL
+  username: TheMovieWorldchannel
+
+2026-05-21 16:25:48 | INFO    | importers.message_importer
+  event: message_import_target
+  msg: Message import target selected
+  target: username
+  username: TheMovieWorldchannel
+
+2026-05-21 16:25:48 | INFO    | importers.message_importer
+  event: message_import_target
+  msg: Message import target selected
+  target: username
+  username: shtkocxitaltsxa
+
+2026-05-21 16:25:48 | INFO    | importers.message_importer
+  event: message_bootstrap_first_real
+  msg: First real historical message found
+  first_real_id: 904
+  scanned_count: 2
+  username: shtkocxitaltsxa
+
+2026-05-21 16:25:52 | INFO    | importers.message_importer
+  event: message_state_update
+  msg: Message cursor updated
+  last_id: 5714
+  username: TheMovieWorldchannel
+
+2026-05-21 16:25:52 | INFO    | importers.importer_manager
+  event: channel_messages_saved
+  msg: Messages saved
+  saved_count: 2
+  username: TheMovieWorldchannel
+  worker_id: worker_6
+
+2026-05-21 16:26:00 | INFO    | workers.worker
+  event: channel_success
+  msg: Channel processed successfully
+  username: TheMovieWorldchannel
+  worker_id: worker_6
+  worker_name: wai yan clone
+  worker_role: update
+
+2026-05-21 16:26:00 | INFO    | workers.worker
+  event: channel_processing
+  msg: Processing channel
+  is_adults: False
+  username: mmsubmoviesmainchannel
+  worker_id: worker_6
+  worker_name: wai yan clone
+  worker_role: update
+
+2026-05-21 16:26:00 | INFO    | utils.peer_resolver
+  event: peer_cache_hit
+  msg: Using cached peer
+  peer_type: CHANNEL
+  username: mmsubmoviesmainchannel
+
+2026-05-21 16:26:00 | INFO    | importers.message_importer
+  event: message_import_target
+  msg: Message import target selected
+  target: username
+  username: mmsubmoviesmainchannel
+
+2026-05-21 16:26:08 | INFO    | importers.message_importer
+  event: message_bootstrap_historical_saved
+  msg: Historical bootstrap saved
+  first_real_id: 904
+  highest_saved_id: 914
+  saved_count: 10
+  scanned_count: 11
+  username: shtkocxitaltsxa
+
+2026-05-21 16:26:08 | INFO    | importers.message_importer
+  event: message_state_update
+  msg: Message cursor updated
+  last_id: 914
+  username: shtkocxitaltsxa
+
+2026-05-21 16:26:08 | INFO    | importers.importer_manager
+  event: channel_messages_saved
+  msg: Messages saved
+  saved_count: 10
+  username: shtkocxitaltsxa
+  worker_id: worker_5
+
+2026-05-21 16:26:08 | INFO    | utils.channel_registry
+  event: channel_registry_move_to_update
+  msg: Bootstrap channel moved to update registry
+  update_file: update_channel.json
+  username: shtkocxitaltsxa
+
+2026-05-21 16:26:17 | INFO    | workers.worker
+  event: channel_success
+  msg: Channel processed successfully
+  username: shtkocxitaltsxa
+  worker_id: worker_5
+  worker_name: pyae soon
+  worker_role: bootstrap
+
+2026-05-21 16:26:17 | INFO    | workers.worker
+  event: channel_processing
+  msg: Processing channel
+  is_adults: False
+  username: movieseries_2024
+  worker_id: worker_5
+  worker_name: pyae soon
+  worker_role: bootstrap
+
+2026-05-21 16:26:18 | INFO    | utils.peer_resolver
+  event: peer_cache_miss
+  msg: Peer cache miss. Resolving via API
+  username: movieseries_2024
+
+2026-05-21 16:26:18 | INFO    | utils.peer_resolver
+  event: peer_resolved
+  msg: Peer resolved
+  peer_type: CHANNEL
+  telegram_id: 2454281574
+  username: movieseries_2024
+
+2026-05-21 16:26:18 | INFO    | importers.message_importer
+  event: message_import_target
+  msg: Message import target selected
+  target: username
+  username: movieseries_2024
+
+2026-05-21 16:26:19 | INFO    | importers.message_importer
+  event: message_state_update
+  msg: Message cursor updated
+  last_id: 21
+  username: mmsubmoviesmainchannel
+
+2026-05-21 16:26:19 | INFO    | importers.importer_manager
+  event: channel_messages_saved
+  msg: Messages saved
+  saved_count: 10
+  username: mmsubmoviesmainchannel
+  worker_id: worker_6
+
+2026-05-21 16:26:22 | INFO    | importers.message_importer
+  event: message_bootstrap_first_real
+  msg: First real historical message found
+  first_real_id: 9226
+  scanned_count: 452
+  username: movieseries_2024
+
+2026-05-21 16:26:28 | INFO    | workers.worker
+  event: channel_success
+  msg: Channel processed successfully
+  username: mmsubmoviesmainchannel
+  worker_id: worker_6
+  worker_name: wai yan clone
+  worker_role: update
+
+2026-05-21 16:26:28 | INFO    | workers.worker
+  event: channel_processing
+  msg: Processing channel
+  is_adults: False
+  username: moviezone358
+  worker_id: worker_6
+  worker_name: wai yan clone
+  worker_role: update
+
+2026-05-21 16:26:29 | INFO    | utils.peer_resolver
+  event: peer_cache_hit
+  msg: Using cached peer
+  peer_type: CHANNEL
+  username: moviezone358
+
+2026-05-21 16:26:29 | INFO    | importers.message_importer
+  event: message_import_target
+  msg: Message import target selected
+  target: username
+  username: moviezone358
+
+2026-05-21 16:26:41 | INFO    | importers.message_importer
+  event: message_bootstrap_historical_saved
+  msg: Historical bootstrap saved
+  first_real_id: 9226
+  highest_saved_id: 9255
+  saved_count: 10
+  scanned_count: 470
+  username: movieseries_2024
+
+2026-05-21 16:26:41 | INFO    | importers.message_importer
+  event: message_state_update
+  msg: Message cursor updated
+  last_id: 9255
+  username: movieseries_2024
+
+2026-05-21 16:26:41 | INFO    | importers.importer_manager
+  event: channel_messages_saved
+  msg: Messages saved
+  saved_count: 10
+  username: movieseries_2024
+  worker_id: worker_5
+
+2026-05-21 16:26:41 | INFO    | utils.channel_registry
+  event: channel_registry_move_to_update
+  msg: Bootstrap channel moved to update registry
+  update_file: update_channel.json
+  username: movieseries_2024
+
+2026-05-21 16:26:46 | INFO    | tracker.progress_tracker
+  event: progress_report
+  msg: Worker progress report
+  current_update_file: update_channel.json
+  cycle: 1
+  done: 2
+  failed: 0
+  pending: 10
+  pending_bootstrap: 6
+  pending_update: 4
+  processing: 2
+  processing_bootstrap: 1
+  processing_update: 1
+  suspended: 0
+  update_files: 1
+  update_files_done: 0
+
+2026-05-21 16:26:47 | INFO    | importers.message_importer
+  event: message_state_update
+  msg: Message cursor updated
+  last_id: 564
+  username: moviezone358
+
+2026-05-21 16:26:47 | INFO    | importers.importer_manager
+  event: channel_messages_saved
+  msg: Messages saved
+  saved_count: 9
+  username: moviezone358
+  worker_id: worker_6
+
+2026-05-21 16:26:51 | INFO    | workers.worker
+  event: channel_success
+  msg: Channel processed successfully
+  username: movieseries_2024
+  worker_id: worker_5
+  worker_name: pyae soon
+  worker_role: bootstrap
+
+2026-05-21 16:26:51 | INFO    | workers.worker
+  event: channel_processing
+  msg: Processing channel
+  is_adults: False
+  username: cartooncraze_2025
+  worker_id: worker_5
+  worker_name: pyae soon
+  worker_role: bootstrap
+
+2026-05-21 16:26:51 | INFO    | utils.peer_resolver
+  event: peer_cache_miss
+  msg: Peer cache miss. Resolving via API
+  username: cartooncraze_2025
+
+2026-05-21 16:26:51 | INFO    | utils.peer_resolver
+  event: peer_resolved
+  msg: Peer resolved
+  peer_type: CHANNEL
+  telegram_id: 2303257478
+  username: cartooncraze_2025
+
+2026-05-21 16:26:51 | INFO    | importers.message_importer
+  event: message_import_target
+  msg: Message import target selected
+  target: username
+  username: cartooncraze_2025
+
+2026-05-21 16:26:52 | INFO    | importers.message_importer
+  event: message_bootstrap_first_real
+  msg: First real historical message found
+  first_real_id: 1916
+  scanned_count: 23
+  username: cartooncraze_2025
+
+2026-05-21 16:26:54 | INFO    | workers.worker
+  event: channel_success
+  msg: Channel processed successfully
+  username: moviezone358
+  worker_id: worker_6
+  worker_name: wai yan clone
+  worker_role: update
+
+2026-05-21 16:26:54 | INFO    | workers.worker
+  event: channel_processing
+  msg: Processing channel
+  is_adults: False
+  username: Fossil_Series_List
+  worker_id: worker_6
+  worker_name: wai yan clone
+  worker_role: update
+
+2026-05-21 16:26:54 | INFO    | utils.peer_resolver
+  event: peer_cache_hit
+  msg: Using cached peer
+  peer_type: CHANNEL
+  username: Fossil_Series_List
+
+2026-05-21 16:26:54 | INFO    | importers.message_importer
+  event: message_import_target
+  msg: Message import target selected
+  target: username
+  username: Fossil_Series_List
+
+2026-05-21 16:27:10 | INFO    | importers.message_importer
+  event: message_bootstrap_historical_saved
+  msg: Historical bootstrap saved
+  first_real_id: 1916
+  highest_saved_id: 3632
+  saved_count: 10
+  scanned_count: 348
+  username: cartooncraze_2025
+
+2026-05-21 16:27:10 | INFO    | importers.message_importer
+  event: message_state_update
+  msg: Message cursor updated
+  last_id: 3632
+  username: cartooncraze_2025
+
+2026-05-21 16:27:10 | INFO    | importers.importer_manager
+  event: channel_messages_saved
+  msg: Messages saved
+  saved_count: 10
+  username: cartooncraze_2025
+  worker_id: worker_5
+
+2026-05-21 16:27:10 | INFO    | utils.channel_registry
+  event: channel_registry_move_to_update
+  msg: Bootstrap channel moved to update registry
+  update_file: update_channel.json
+  username: cartooncraze_2025
+
+2026-05-21 16:27:12 | INFO    | importers.message_importer
+  event: message_state_update
+  msg: Message cursor updated
+  last_id: 30
+  username: Fossil_Series_List
+
+2026-05-21 16:27:13 | INFO    | importers.importer_manager
+  event: channel_messages_saved
+  msg: Messages saved
+  saved_count: 10
+  username: Fossil_Series_List
+  worker_id: worker_6
+
+2026-05-21 16:27:20 | INFO    | workers.worker
+  event: channel_success
+  msg: Channel processed successfully
+  username: cartooncraze_2025
+  worker_id: worker_5
+  worker_name: pyae soon
+  worker_role: bootstrap
+
+2026-05-21 16:27:21 | INFO    | workers.worker
+  event: channel_processing
+  msg: Processing channel
+  is_adults: False
+  username: abu261373
+  worker_id: worker_5
+  worker_name: pyae soon
+  worker_role: bootstrap
+
+2026-05-21 16:27:21 | INFO    | utils.peer_resolver
+  event: peer_cache_miss
+  msg: Peer cache miss. Resolving via API
+  username: abu261373
+
+2026-05-21 16:27:21 | INFO    | utils.peer_resolver
+  event: peer_resolved
+  msg: Peer resolved
+  peer_type: CHANNEL
+  telegram_id: 3763640999
+  username: abu261373
+
+2026-05-21 16:27:21 | INFO    | importers.message_importer
+  event: message_import_target
+  msg: Message import target selected
+  target: username
+  username: abu261373
+
+2026-05-21 16:27:21 | INFO    | importers.message_importer
+  event: message_bootstrap_first_real
+  msg: First real historical message found
+  first_real_id: 5
+  scanned_count: 2
+  username: abu261373
+
+2026-05-21 16:27:22 | INFO    | workers.worker
+  event: channel_success
+  msg: Channel processed successfully
+  username: Fossil_Series_List
+  worker_id: worker_6
+  worker_name: wai yan clone
+  worker_role: update
+
+2026-05-21 16:27:22 | INFO    | workers.worker
+  event: channel_processing
+  msg: Processing channel
+  is_adults: False
+  username: ChannelMMSubMain_1
+  worker_id: worker_6
+  worker_name: wai yan clone
+  worker_role: update
+
+2026-05-21 16:27:22 | INFO    | utils.peer_resolver
+  event: peer_cache_hit
+  msg: Using cached peer
+  peer_type: CHANNEL
+  username: ChannelMMSubMain_1
+
+2026-05-21 16:27:22 | INFO    | importers.message_importer
+  event: message_import_target
+  msg: Message import target selected
+  target: username
+  username: ChannelMMSubMain_1
+
+2026-05-21 16:27:33 | INFO    | workers.worker
+  event: worker_disconnected
+  msg: Worker disconnected
+  worker_id: worker_5
+  worker_role: bootstrap
+
+2026-05-21 16:27:33 | INFO    | workers.worker
+  event: worker_disconnected
+  msg: Worker disconnected
+  worker_id: worker_6
+  worker_role: update
+
+2026-05-21 16:27:33 | INFO    | workers.worker_manager
+  event: redis_connection_closed
+  msg: Redis connection closed
+
+2026-05-21 16:27:33 | INFO    | __main__
+  event: shutdown_start
+  msg: Shutting down resources
+
+2026-05-21 16:27:33 | INFO    | __main__
+  event: shutdown_complete
+  msg: Application shutdown complete
+

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "yuchann",
+    "api_id": 28887666,
+    "api_hash": "1e01869b2b510bfecb4462d08b529b72",
+    "phone": "+601117901410",
+    "session": "sessions/account1.session",
+    "enable": true
+  },
+  {
+    "id": 2,
+    "name": "wai yan",
+    "api_id": 24972105,
+    "api_hash": "c57ebdb04dbb2c6983f3e3ddd7b8aedd",
+    "phone": "+959755706104",
+    "session": "sessions/account2.session",
+    "enable": true
+  },
+  {
+    "id": 3,
+    "name": "chaw",
+    "api_id": 20549861,
+    "api_hash": "90146ca2ac1a20152804462baf976e85",
+    "phone": "+601128043320",
+    "session": "sessions/account3.session",
+    "enable": true
+  },
+  {
+    "id": 4,
+    "name": "san thein",
+    "api_id": 21713742,
+    "api_hash": "67408ad34724974d2a8a0431cd29fce9",
+    "phone": "+959458329951",
+    "session": "sessions/account4.session",
+    "enable": false
+  },
+    {
+    "id": 5,
+    "name": "pyae soon",
+    "api_id": 32577910,
+    "api_hash": "40cc5f4b600b7ae9a7fd20b78c5c6f7c",
+    "phone": "+959792151984",
+    "session": "sessions/account5.session",
+    "enable": true
+  },
+    {
+    "id": 6,
+    "name": "wai yan clone",
+    "api_id": 11535358,
+    "api_hash": "33d372962fadb01df47e6ceed4e33cd6",
+    "phone": "+959755706104",
+    "session": "sessions/account6.session",
+    "enable": false
+  }
+]

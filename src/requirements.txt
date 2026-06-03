@@ -1,0 +1,6 @@
+telethon
+asyncpg
+sqlalchemy[asyncio]
+python-dotenv
+redis[asyncio]
+aiohttp
